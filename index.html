@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Etch-A-Sketch</h1>
+    Select a size: <input type="number" />
+    <button id="sizeBtn" type="submit" min="2 "max ="100">Submit</button>
+    <br />
+    <input class="color" name = "color"type="radio" value="lightgrey">Erase</input>
+    <input class="color" name = "color"type="radio" value="pink">Pink</input>
+    <input class="color" name = "color"type="radio" value="yellow">Yellow</input>
+    <input class="color" name = "color"type="radio" value="blue">Blue</input>
+    <input class="color" name = "color"type="radio" value="green">Green</input>
+    <br>
+    <button id="clear">Clear</button>
+
+    <div id="container"></div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
